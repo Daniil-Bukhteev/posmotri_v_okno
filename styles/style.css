@@ -138,6 +138,7 @@ fieldset {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 5px;
+  margin-left: 1px;
 }
 
 .content__accent {
@@ -293,7 +294,7 @@ fieldset {
   line-height: normal;
   min-width: 224px;
   width: 100%;
-  min-height: 26px;
+  min-height: 24px;
   height: 100%;
   background-color: transparent;
   border-top: 1px solid currentColor;
@@ -316,10 +317,6 @@ fieldset {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
-}
-
-.button:focus-visible {
   outline: 1px solid #fff;
 }
 
