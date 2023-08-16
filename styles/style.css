@@ -46,7 +46,7 @@ fieldset {
 .content {
   margin: auto;
   display: grid;
-  grid-template-columns: 711px 399px;
+  grid-template-columns: 711px auto;
   gap: 30px;
   grid-column: end;
 }
@@ -64,6 +64,7 @@ fieldset {
 
 .content__list {
   min-width: 399px;
+  display: block;
   height: 298px;
   overflow: auto;
   position: relative;
@@ -95,13 +96,11 @@ fieldset {
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 33px;
+  margin-bottom: 35px;
 }
 
 .content__video-card {
   min-width: 394px;
-  margin-right: 2px;
-  padding: 2px 0 2px 2px; 
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -109,7 +108,7 @@ fieldset {
 
 .content__video-card-thumbnail {
   min-width: 194px;
-  height: 99px;
+  height: 101px;
   object-fit: cover;
   object-position: center;
 }
@@ -139,6 +138,7 @@ fieldset {
 }
 
 .content__card-link {
+  margin: 2px;
   text-decoration: none;
   color: #fff;
   display: block;
